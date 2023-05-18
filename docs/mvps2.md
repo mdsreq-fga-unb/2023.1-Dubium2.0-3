@@ -1,4 +1,4 @@
-# 4. MVPs
+# MVPs
 
 ## MVP 1
 | Tema | Épico | US |
