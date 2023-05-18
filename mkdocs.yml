@@ -24,7 +24,7 @@ nav:
       - Casos de Uso: "uml.md"
 
   - Documentação v2.0:
-     - Visão do Produto e Projeto: "visao.md"
+     - Visão do Produto e Projeto: "visaoAtt.md"
      - Backlog: "backlog-conectafga.md"
 
   - Entregas:
