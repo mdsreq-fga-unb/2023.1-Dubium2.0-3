@@ -25,6 +25,12 @@ nav:
       - USM: "usm.md"
       - Casos de Uso: "uml.md"
   - Entregas:
+    - ConectaFGA: 
+        - Unidade 1:
+            - Seminário - Processos e Ciclos de Vida: "unidade1-conectafga.md"
+            - Vídeo - Apresentação GitPages: "u1-material.md"
+        - Unidade 2:
+            - Material - Padrões de interface, tipo e estilo de arquitetura: "entrega2-conectafga.md"
     - Discipulus:
         - Unidade 1:
             - Visão Geral do Produto: "entrega-visao.md"
@@ -32,11 +38,12 @@ nav:
         - Unidade 2: "entrega-unidade-2.md"
         - Unidade 3: "entrega-unidade-3.md"
         - Unidade 4: "entrega-unidade-4.md"
-    - ConectaFGA: 
-        - Unidade 1:
-            - Seminário - Processos e Ciclos de Vida: "unidade1-conectafga.md"
-            - Vídeo - Apresentação GitPages: "u1-material.md"
   - Sprints:
+    - ConectaFGA: 
+        - Sprint 1:
+            - Palanning: "sprints/sprint_14/planning.md"
+            - Retrospectiva: "sprints/sprint_14/retrospectiva.md"
+            - Review: "sprints/sprint_14/review.md"
     - Discipulus: 
         - Sprints Backlog:
             - Kanbam: "trello.md"
@@ -99,11 +106,6 @@ nav:
             - Palanning: "sprints/sprint_15/planning.md"
             - Retrospectiva: "sprints/sprint_15/retrospectiva.md"
             - Review: "sprints/sprint_15/review.md"
-    - ConectaFGA: 
-        - Sprint 1:
-            - Palanning: "sprints/sprint_14/planning.md"
-            - Retrospectiva: "sprints/sprint_14/retrospectiva.md"
-            - Review: "sprints/sprint_14/review.md"
   - Protótipos:
       - MVP1: "prototipos/prototipos-mvp1.md"
       - MVP2: "prototipos/prototipos-mvp2.md"
