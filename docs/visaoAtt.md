@@ -50,13 +50,11 @@ O objetivo do Dubium é ajudar / dar suporte para a resolução de dúvidas espe
 - HTML
 - CSS
 - JavaScript
-- Typescript
-- MySQL
+- MongoDB
 - NodeJS
-- NestJS
-- Material UI
+- Express
 - React
-- Jest
+- Mocha
 
 ## 2	VISÃO GERAL DO PROJETO
 ### 2.1	Organização do Projeto

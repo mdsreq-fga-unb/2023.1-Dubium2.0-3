@@ -25,16 +25,23 @@ nav:
 
   - Documentação v2.0:
      - Visão do Produto e Projeto: "visaoAtt.md"
+     - Visão do Geral do Projeto: "visaoProjeto.md"
+     - Proceso de Desenvolvimento de Software: "processoDes.md"
      - Backlog: "backlog-conectafga.md"
+     - MVPs: "mvps2.md"
 
   - Entregas:
     - ConectaFGA: 
         - Unidade 1:
             - Seminário - Processos e Ciclos de Vida: "unidade1-conectafga.md"
             - Vídeo - Apresentação GitPages: "u1-material.md"
+            - Lições Aprendidas: "licoesU1.md"
+            - Referências: "refU1.md"
         - Unidade 2:
             - Material - Padrões de interface, tipo e estilo de arquitetura: "entrega2-conectafga.md"
             - Vídeo - Apresentação Unidade 2: "entrega2-vdo-conectafga.md"
+            - Lições Aprendidas: "licoesU2.md"
+            - Referências: "refU2.md"
     - Discipulus:
         - Unidade 1:
             - Visão Geral do Produto: "entrega-visao.md"
