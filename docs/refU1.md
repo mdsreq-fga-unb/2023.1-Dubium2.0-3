@@ -1,10 +1,11 @@
-# Referências
+# Referências Bibliográficas
 
 ## Historico de Revisão
 
 | Data     | Versão | Descrição                  | Autor(es)                                                                          |
 |----------|--------|----------------------------|---------------------------------------------------------------------------------------------|
 |16/04/2023|   0.1  | Inserção de todas as referências em que a equipe se baseou para o desenvolvimento da Unidade 1. |[Arthur](https://github.com/Arthrok), [Eric](https://github.com/ericbky), [Pedro Lucas](https://github.com/lucasdray), [Yasmim](https://github.com/yaskisoba)|
+|15/05/2023|   0.2  | Inserção de todas as referências em que a equipe se baseou para o desenvolvimento da Unidade 2. |[Arthur](https://github.com/Arthrok), [Eric](https://github.com/ericbky), [Pedro Lucas](https://github.com/lucasdray), [Yasmim](https://github.com/yaskisoba)|
 
 ---------------------------------------------------------------
 
@@ -20,3 +21,9 @@
 - SAFe 6.0. Disponível em: https://scaledagileframework.com/#. Acesso em: 17 de abril de 2023.
 
 - SABBAGH, Rafael. Scrum: Gestão ágil para projetos de sucesso. São Paulo: Casa do Código, 2016.
+
+## Unidade 2
+
+
+- "Projetando Interfaces: Padrões para Design de Interação Eficaz" por Jenifer Tidwell
+- "Use a Cabeça! Padrões de Projetos" por Eric Freeman e Elisabeth Robson 

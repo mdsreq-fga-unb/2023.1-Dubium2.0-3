@@ -1,4 +1,4 @@
-#Backlog ConectaFGA
+#Backlog do Produto
 ## Historico de Revisão
 
 | Data     | Versão | Descrição                  | Autor(es)                                                                          |

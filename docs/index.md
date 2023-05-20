@@ -5,27 +5,10 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=PROCESSING&color=GREEN&style=for-the-badge"/>
 </p>
 
-## Índice
-
-- [Índice](#índice)
-- [Descrição do Projeto](#descrição-do-projeto)
-- [Site Oficial](#site-oficial)
-- [Documentação](#documentação)
-- [Clonando o repositório](#clonando-o-repositório)
-- [Instalação](#instalação)
-- [Equipe](#equipe)
 
 ## Descrição do Projeto
 
-`O Dubium é um produto que visa o auxílio acadêmico aos alunos da FGA, focado em ajudá-los / dar suporte para o desenvolvimento acadêmico - sanando as dúvidas de estudo - em temas específicos das matérias. Gerando assim autonomia e abrangência de conhecimentos, sem obrigatoriedade por partes dos estudantes voluntários.`
-
-## Site Oficial
-
-**Clique <a href="https://stingray-app-4tbp8.ondigitalocean.app/">aqui</a> para acessar o nosso site**
-
-## Documentação
-
-**Para mais informações sobre o projeto acesse nossa <a href="https://mdsreq-fga-unb.github.io/2023.1-Dubium/">documentação</a> ou abra por um servidor web**
+O Dubium é um produto que visa o auxílio acadêmico aos alunos da FGA, focado em ajudá-los / dar suporte para o desenvolvimento acadêmico - sanando as dúvidas de estudo - em temas específicos das matérias. Gerando assim autonomia e abrangência de conhecimentos, sem obrigatoriedade por partes dos estudantes voluntários.
 
 ## Clonando o repositório
 
@@ -38,10 +21,10 @@ $ cd 2023.1-Dubium
 
 ## Instalação
 
-`Para utilização do sistema será necessário: `
+Para utilização do sistema será necessário: 
 
 - [Git](https://git-scm.com/)
-- [Node](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/)
 - [Express.js](https://nestjs.com/)
 - [Mocha](https://yarnpkg.com/)
 
