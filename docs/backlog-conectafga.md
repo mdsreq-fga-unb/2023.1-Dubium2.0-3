@@ -45,18 +45,3 @@
 |**T02** -  Ranking para Classificação de Usuários|**EP04** - Gerenciar ranqueamento de usuários com base em sua atividade.|**US17** - Eu, como usuário, gostaria de editar meus avisos  para corrigir de erro de digitação.|A edição pode ser feita a qualquer momento sem limite de tempo após sua publicação; Somente o autor do aviso pode editá-lo.|3|3|1|7|
 |**T02** -  Ranking para Classificação de Usuários|**EP04** - Gerenciar ranqueamento de usuários com base em sua atividade.|**US18** - Eu, como usuário, gostaria de editar minhas perguntas para corrigir de erro de digitação.|A edição pode ser feita a qualquer momento sem limite de tempo após sua publicação; Somente o autor da pergunta pode editá-la.|3|3|2|7|
 |**T02** -  Ranking para Classificação de Usuários|**EP04** - Gerenciar ranqueamento de usuários com base em sua atividade.|**US19** - Eu, como usuário, gostaria de editar minhas respostas para corrigir erros de digitação|A edição pode ser feita a qualquer momento sem limite de tempo após sua publicação; Somente o autor da pergunta pode editá-la.|3|3|2|7|
-
-
-<script>
-  var scrollContainer = document.getElementById("scrollContainer");
-  scrollContainer.scrollLeft = scrollContainer.scrollWidth; // Move o scroll para o final
-
-  function moveOverflowUp() {
-    scrollContainer.scrollLeft -= 10; // Define a velocidade e direção da movimentação
-    if (scrollContainer.scrollLeft <= 0) {
-      clearInterval(scrollInterval); // Para a movimentação quando alcançar o início
-    }
-  }
-
-  var scrollInterval = setInterval(moveOverflowUp, 50); // Intervalo para mover o overflow para cima
-</script>
