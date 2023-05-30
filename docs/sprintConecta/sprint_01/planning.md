@@ -20,10 +20,10 @@ Essa Sprint foi de extrema importância para o planejamento do projeto, definind
 Na conversa inicial explicamos os nossos objetivos e conseguimos alinhar um pouco do que vamos entregar em cada MVP.
 
 Para essa atual Sprint, os objetivos são:
-* Ajustes no padrão de interface;
-* Refatoração de todo o backend;
-* Mudança banco de dados;
-* Mudança Framework.
+*Ajustes no padrão de interface;
+*Evolução do backend;
+*Mudança do banco de dados;
+*Mudança de Framework.
 
 
 
