@@ -1,15 +1,7 @@
 # 1. Planning
 
-## 1.1. Visão Geral
-<!-- data de inicio da sprint
-     data de finalização da sprint
-     duraração da sprint
- -->
- Início | Fim | Duração
- ------ | --- | -------
- 01/05/2023 | 02/05/2023 | 2 dias
 
-## 1.2. Papéis
+## 1.1. Papéis
 <!-- Papeis que cada membro exerceu durante essa sprint -->
 Papel | Responsável | Participantes
 ----- | ----------- | -------------
@@ -21,12 +13,21 @@ Desenvolvedor Front| Fábio | Arthur, Dara, Eric, Giulia, Pedro, Yasmim
 DEV-Master| Pedro | Arthur, Dara, Eric, Fábio, Giulia, Yasmim
 CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 
-## 1.3. Objetivos da Sprint
+## 1.2. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
-* Declarar os requisitos funcionais e não funcionais do produto
+* Essa Sprint foi de extrema importância para o planejamento do projeto, definindo: a duração das Sprints, os requisitos, conhecimento das tecnologias a serem utilizadas e a readequação do nosso projeto inicialmente estabelecido, onde tivemos que dar prosseguimento a um já existente, e a nossa cliente mudou para uma integrante desse produto. 
+Na conversa inicial explicamos os nossos objetivos e conseguimos alinhar um pouco do que vamos entregar em cada MVP.
+Para essa atual Sprint, os objetivos são:
+- Ajustes no padrão de interface;
+- Refatoração de todo o backend;
+- Mudança banco de dados;
+- Mudança Framework.
 
-## 1.4. Tarefas
+
+
+## 1.3. Tarefas
 <!-- descrever as issues que definimos para essa sprint e alocar um responsavel por ela -->
 Tarefas | Descrição | Responsáveis
 ------ | --------- | -----------
 01 | Documentação | [Arthur](https://github.com/Arthrok), [Eric](https://github.com/ericbky), [Yasmim](https://github.com/yaskisoba)
+02 | Atualização do Documento | [Fábio](https://github.com/fabioaletorres)
