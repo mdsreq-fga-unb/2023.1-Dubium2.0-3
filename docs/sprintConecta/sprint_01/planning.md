@@ -15,13 +15,15 @@ CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 
 ## 1.2. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
-* Essa Sprint foi de extrema importância para o planejamento do projeto, definindo: a duração das Sprints, os requisitos, conhecimento das tecnologias a serem utilizadas e a readequação do nosso projeto inicialmente estabelecido, onde tivemos que dar prosseguimento a um já existente, e a nossa cliente mudou para uma integrante desse produto. 
+Essa Sprint foi de extrema importância para o planejamento do projeto, definindo: a duração das Sprints, os requisitos, conhecimento das tecnologias a serem utilizadas e a readequação do nosso projeto inicialmente estabelecido, onde tivemos que dar prosseguimento a um já existente, e a nossa cliente mudou para uma integrante desse produto. 
+
 Na conversa inicial explicamos os nossos objetivos e conseguimos alinhar um pouco do que vamos entregar em cada MVP.
+
 Para essa atual Sprint, os objetivos são:
-- Ajustes no padrão de interface;
-- Refatoração de todo o backend;
-- Mudança banco de dados;
-- Mudança Framework.
+* Ajustes no padrão de interface;
+* Refatoração de todo o backend;
+* Mudança banco de dados;
+* Mudança Framework.
 
 
 

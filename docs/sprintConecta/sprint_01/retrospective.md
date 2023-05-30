@@ -3,7 +3,8 @@
 
 ## 3.1. Descrição
 <!-- descrever de forma geral o objetivo da sprint -->
-* O que deu certo nessa última Sprint ?
+
+O que deu certo nessa última Sprint ?
 
 Conseguimos entregar tudo o que foi proposto na Planning e alinhamos o que a cliente espera em nossas entregas de MVP.
 

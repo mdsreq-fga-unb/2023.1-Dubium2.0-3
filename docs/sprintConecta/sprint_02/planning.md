@@ -15,9 +15,11 @@ CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 
 ## 1.2. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
-* Nessa Sprint vamos começar a implementar as novidades ao projeto existente, com o objetivo de iniciar e finalizar cada história de usuário com os testes.
+Nessa Sprint vamos começar a implementar as novidades ao projeto existente, com o objetivo de iniciar e finalizar cada história de usuário com os testes.
 Dentre as histórias apresentadas no backlog do produto, foram priorizadas pela cliente: 
 
+| Tema | Épico | US |
+|------|-------|----|
 |**T04** - Chat|**EP10** - Gerenciar mensagens enviadas pelos usuários.|**US37** - Eu, como usuário, quero ser capaz de enviar mensagens públicas para outros usuários em tempo real, para que eu possa ter conversas públicas com outros usuários sem precisar atualizar a página.|As mensagens públicas devem ficar em uma espécie de mural no perfil de cada usuário.|
 |**T04** - Chat|**EP10** - Gerenciar mensagens enviadas pelos usuários.|**US38** - Eu, como usuário, quero ser capaz de enviar mensagens privadas para outros usuários, para que eu possa ter conversas privadas que não são visíveis para outros usuários.|
 |**T04** - Chat|**EP10** Gerenciar mensagens enviadas pelos usuários.|**US39** - Eu, como usuário, quero ser notificado quando uma nova mensagem privada for enviada para mim, para que eu possa saber imediatamente quando uma nova mensagem chegou e respondê-la.|

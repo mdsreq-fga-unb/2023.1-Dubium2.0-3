@@ -3,7 +3,8 @@
 
 ## 3.1. Descrição
 <!-- descrever de forma geral o objetivo da sprint -->
-* O que deu certo nessa última Sprint ?
+
+O que deu certo nessa última Sprint ?
 
 
 Quais problemas foram foram encontrados?
@@ -18,7 +19,7 @@ O que pode ser mudado para que o time seja mais eficaz?
 O que cada um pode melhorar?
 
 
-- Relato de programação em pares
+Relato de programação em pares
 
 
 ## 3.2. Tarefas
