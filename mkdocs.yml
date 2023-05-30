@@ -49,7 +49,11 @@ nav:
     - Sprint 1:
         - Planning: "sprintConecta/sprint_01/planning.md"
         - Review: "sprintConecta/sprint_01/review.md"
-        - Retrospectiva: "sprintConecta/sprint_01/retrospectiva.md"
+        - Retrospectiva: "sprintConecta/sprint_01/retrospective.md"
+    - Sprint 2:
+        - Planning: "sprintConecta/sprint_02/planning.md"
+        - Review: "sprintConecta/sprint_02/review.md"
+        - Retrospectiva: "sprintConecta/sprint_02/retrospective.md"
 
   - Protótipos:
       - MVP1: "prototipos/prototipos-mvp1.md"
