@@ -21,15 +21,15 @@
 
 | MVP1     |	Produto(Entrega)|	Data Início |	Data Fim |
 |----------|------------------|-----------------|------------|
-| Sprint 1 |	Produto(Entrega)|	20/04 |  04/05 |
-| Sprint 2 |	Produto(Entrega)|	05/05 |  19/05 |
-| Sprint 3 |	Produto(Entrega)|	20/05 |  03/06  |
+| Sprint 1 |	Produto(Entrega)|	01/05 |  15/05 |
+| Sprint 2 |	Produto(Entrega)|	16/05 |  31/05 |
+| Sprint 3 |	Produto(Entrega)|	01/06 |  15/06  |
 
 | MVP2    |	Produto(Entrega)|	Data Início |	Data Fim |
 |----------|------------------|-----------------|------------|
-| Sprint 4 |	Produto(Entrega)|	04/06 |  18/06 |
-| Sprint 5 |	Produto(Entrega)|	19/06 |  03/07 |
-| Sprint 6 |	Produto(Entrega)|	04/07 |  21/07  |
+| Sprint 4 |	Produto(Entrega)|	16/06 |  01/07 |
+| Sprint 5 |	Produto(Entrega)|	02/07 |  17/07 |
+
 
 
 
