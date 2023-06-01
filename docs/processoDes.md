@@ -7,7 +7,7 @@
 
 ----------------------------------------------------------------
 
-Para o desenvolvimento do produto, a equipe utilizará fundamentalmente terá algumas práticas como: comunicação, simplicidade, feedback, coragem e respeito. Na mesma linhagem, seguiremos de forma híbrida, algumas práticas de desenvolvimento de software envolvendo "XP" com o método de gerenciamento de projetos "Scrum", assim como seus valores, princípios, filosofias e práticas, com algumas básicas adaptações.
+Para o desenvolvimento do produto, a equipe utilizará fundamentalmente os valores do XP: comunicação, simplicidade, feedback, coragem e respeito. Na mesma linhagem, seguiremos de forma híbrida, algumas práticas de desenvolvimento de software envolvendo "XP" com o método de gerenciamento de projetos "Scrum", assim como seus valores, princípios, filosofias e práticas, com algumas básicas adaptações.
 
 -----------------------------------------------------------------------------------------------------------------
 ## Scrum
