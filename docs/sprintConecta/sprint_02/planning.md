@@ -16,6 +16,7 @@ CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 ## 1.2. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
 Nessa Sprint vamos começar a implementar as novidades ao projeto existente, com o objetivo de iniciar e finalizar cada história de usuário com os testes.
+Atualização na documentação do github pages.
 Dentre as histórias apresentadas no backlog do produto, foram priorizadas pela cliente: 
 
 | Tema | Épico | US |
