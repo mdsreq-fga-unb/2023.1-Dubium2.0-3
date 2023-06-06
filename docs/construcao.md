@@ -10,7 +10,7 @@
 
 ----------------------------------------------------------------
 
-Para a construção do software, a equipe utilizará fundamentalmente terá algumas práticas como: comunicação, simplicidade, feedback, coragem e respeito. Na mesma linhagem, seguiremos de forma híbrida, algumas práticas de desenvolvimento de software envolvendo "XP" com o método de gerenciamento de projetos "Scrum", assim como seus valores, princípios, filosofias e práticas, com algumas básicas adaptações.
+Para a construção do software, e como parte da nossa abordagem para alcançar um código limpo e de qualidade, a equipe adotará algumas convenções do Clean Code. Essas convenções são consideradas boas práticas no desenvolvimento de software e visam promover a legibilidade, a manutenibilidade e a eficiência do código.
 
 -----------------------------------------------------------------------------------------------------------------
 
