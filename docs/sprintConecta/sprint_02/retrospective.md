@@ -14,6 +14,7 @@ Quais problemas foram foram encontrados?
 - Como maior dificuldade encontramos a integração e implementação das requisições dos dados dos usuários no chat, e problemas de conexão com banco de dados.
 - Em relação ao chat, o problema atual é a lógica por trás de salvar as mensagens no banco de dados.
 - O gerenciamento de tempo foi um problema mas foi muito ligado a falta de familiaridade com o código.
+- Alguns membros da equipe tiveram problemas para a utilização do banco de dados.
 
 
 Como esses problemas foram resolvidos ?
@@ -23,8 +24,8 @@ Como esses problemas foram resolvidos ?
 - A questão da requisições foi implementada com o tempo, conseguimos verificar o que estava de errado e resolver.
 
 O que pode ser mudado para que o time seja mais eficaz?
-- A questão da organização das US, pois ficaram poucos débitos técnicos que poderiam ser evitados.
-- Melhor gerenciamento de tempo e divisão de demandas.
+- A questão de uma melhor organização das US, pois ficaram poucos débitos técnicos que poderiam ser evitados.
+- Melhor gerenciamento de tempo e divisão de demandas entre os membros da equipe.
 
 O que cada um pode melhorar?
 - O mesmo que o que pode ser mudado para o time ser mais eficaz: gerenciar melhor o tempo.
@@ -32,7 +33,7 @@ O que cada um pode melhorar?
 
 
 Relato de programação em pares
-No geral ficamos alternando e nos ajudando, foi bem agregador e produzimos bastante, tanto em sala quanto a distância, principalmente nas requisições e nas verificações do chat.
+No geral ficamos alternando e nos ajudando, foi bem agregador e produzimos bastante, tanto em sala quanto a distância, principalmente nas requisições e nas verificações do chat. Nessas alternâncias de duplas, algumas se saíram melhores na execução da implementação das US, porém todas as duplas contribuiram em algo para a entrega.
 
 
 ## 3.2. Tarefas
@@ -40,3 +41,4 @@ No geral ficamos alternando e nos ajudando, foi bem agregador e produzimos basta
 Tarefas | Descrição | Responsáveis
 ------ | --------- | -----------
 01 | Documentação | [Fábio](https://github.com/fabioaletorres)
+02 | Documentação | [Fábio](https://github.com/fabioaletorres)

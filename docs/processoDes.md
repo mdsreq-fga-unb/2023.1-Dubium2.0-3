@@ -16,20 +16,21 @@ Scrum é um framework leve que ajuda pessoas,times e organizações a gerar valo
 
 ## Separação dos papéis
 
- O time será divido entre o Product Owner (PO), o Scrum Master e o Scrum Team.
+O time será dividido entre o Product Owner (PO), o Scrum Master e o Scrum Team.
 
 ## Práticas adotadas do Scrum
 
- - Definição do Product Backlog;
-- Sprint Planning Meeting
+- Definição do Product Backlog;
 
-- Sprint Backlog
+- Sprint Planning Meeting;
 
-- Adaptação do Daily Scrum
+- Sprint Backlog;
 
-- Sprint Review
+- Adaptação do Daily Scrum;
 
-- Sprint Retrospective
+- Sprint Review;
+
+- Sprint Retrospective.
 
 ----------------------------------
 

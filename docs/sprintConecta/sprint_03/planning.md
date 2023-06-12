@@ -15,18 +15,27 @@ CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 
 ## 1.2. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
--   Nessa Sprint vamos começar a implementar as nossas novidades ao projeto existente, com o objetivo de iniciar e finalizar cada história de usuário com os testes, além de atualizar a documentação do github pages.
+-   Para essa sprint, vamos trabalhar de uma forma diferente, tendo em vista o prazo entre seu início ao fim e a entrega do MVP1, bem na metade da sprint. Dessa forma, resolveremos os débitos técnicos da sprint anterior e implementaremos as outras US do MVP no período de uma semana, seguindo os critérios de aceitação e realizando os testes. A outra parte da Sprint será utilizada para iniciar a implementaçao do MVP2.
+Sendo assim, o escopo da nossa Sprint ficou dessa forma:
 
-Dentre as histórias apresentadas no backlog do produto, foram priorizadas pela cliente: 
+Para finalizar (débito técnico):
 
 | Tema | Épico | US |
 |------|-------|----|
 |**T04** - Chat|**EP10** - Gerenciar mensagens enviadas pelos usuários.|**US37** - Eu, como usuário, quero ser capaz de enviar mensagens públicas para outros usuários em tempo real, para que eu possa ter conversas públicas com outros usuários sem precisar atualizar a página.|As mensagens públicas devem ficar em uma espécie de mural no perfil de cada usuário.|
-|**T04** - Chat|**EP10** - Gerenciar mensagens enviadas pelos usuários.|**US38** - Eu, como usuário, quero ser capaz de enviar mensagens privadas para outros usuários, para que eu possa ter conversas privadas que não são visíveis para outros usuários.|
 |**T04** - Chat|**EP10** Gerenciar mensagens enviadas pelos usuários.|**US39** - Eu, como usuário, quero ser notificado quando uma nova mensagem privada for enviada para mim, para que eu possa saber imediatamente quando uma nova mensagem chegou e respondê-la.|
-|**T04** - Chat|**EP11** - Gerenciar histórico de conversas.|**US44** - Eu, como usuário, quero ser capaz de visualizar todo o meu histórico de conversas com outro usuário, para que eu possa rever as informações e referências discutidas.|
 
-A partir dessa Sprint, vamos acrescentar a programação em pares, onde as duplas foram definidas inicialmente por: Arthur e Pedro Dourado, Dara e Yasmim, Éric e Fábio; e no decorrer da Sprint serão alternadas.
+Realizar todo o processo de implementação:
+
+| Tema | Épico | US |
+|------|-------|----|
+|**T02** -  Ranking para Classificação de Usuários|**EP04** - Gerenciar ranqueamento de usuários com base em sua atividade.|**US17** - Eu, como usuário, gostaria de editar meus avisos  para corrigir de erro de digitação.|
+|**T03** - Administração de Usuários|**EP08** - Gerenciar usuários do sistema.|**US33** - Eu, como usuário, gostaria de visualizar perfis de outros usuários  para quando o mesmo for selecionado.|Deve haver uma pre-visualização ao passar do mouse na foto do usuário.|
+|**T03** - Administração de Usuários|**EP08** - Gerenciar usuários do sistema.|**US34** - Eu, como usuário, gostaria de personalizar e adicionar uma foto ao meu perfil para outros usuários me identificarem.|Deve ser possível adicionar fotos.|
+
+
+
+
 
 
 
@@ -36,4 +45,4 @@ Tarefas | Descrição | Responsáveis
 ------ | --------- | -----------
 01 | Documentação | [Fábio](https://github.com/fabioaletorres)
 02 | Documentação | [Fábio](https://github.com/fabioaletorres)
-
+03 | Documentação | [Fábio](https://github.com/fabioaletorres)

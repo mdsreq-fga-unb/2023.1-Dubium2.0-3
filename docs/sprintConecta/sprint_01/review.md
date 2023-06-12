@@ -3,7 +3,7 @@
 
 ## 2.1. Descrição
 <!-- descrever de forma geral o objetivo da sprint -->
-Conseguimos realizar as todas as mudanças estabelecidas na Planning, apresentamos a cliente o que foi feito e recebemos um feedback positivo da nossa entrega, sem débitos técnicos.
+-   Conseguimos realizar todas as mudanças estabelecidas na Planning, apresentamos a cliente o que foi feito e recebemos um feedback positivo da nossa entrega, sem débitos técnicos.
 
 ## 2.2. Tarefas
 <!-- descrever as issues que definimos para essa sprint e alocar um responsavel por ela -->

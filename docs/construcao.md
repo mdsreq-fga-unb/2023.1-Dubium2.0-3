@@ -4,8 +4,8 @@
 
 | Data     | Versão | Descrição                  | Autor(es)                                                                          |
 |----------|--------|----------------------------|---------------------------------------------------------------------------------------------|
-|31/05/2023|   0.1  | Definição das conveções de Clean code que serão utilizadas       |[Pedro Lucas](https://github.com/lucasdray)| 
-|06/06/2023|   0.2  | Alteração das conveções      |[Pedro Lucas](https://github.com/lucasdray)| 
+|31/05/2023|   0.1  | Definição das convenções de Clean code que serão utilizadas       |[Pedro Lucas](https://github.com/lucasdray)| 
+|06/06/2023|   0.2  | Alteração das convenções      |[Pedro Lucas](https://github.com/lucasdray)| 
 
 
 ----------------------------------------------------------------
@@ -16,8 +16,8 @@ Para a construção do software, e como parte da nossa abordagem para alcançar 
 
 | Conveções do Clean Code | Será utilizado? | Por que? |
 |----------------|----------|-----------|
-|Nomeclatura significativa|Sim| Para facil compreensão de quem irá ler o codigo adotando o uso de nomes autoexplicativos para variáveis,funções, classes, métodos e outros elementos do código.|
-|Funções e métodos curtos|Não|Embora a convenção de clean code geralmente recomende o uso de funções e métodos curtos, o domínio do problema é de forma intrinsicamente complexa exigindo funções e métodos mais longos.|
+|Nomenclatura significativa|Sim| Para facilitar a compreensão de quem irá ler o codigo adotando o uso de nomes autoexplicativos para variáveis,funções,classes, métodos e outros elementos do código.|
+|Funções e métodos curtos|Não| Embora a convenção de clean code geralmente recomende o uso de funções e métodos curtos, o domínio do problema é de forma intrinsicamente complexa exigindo funções e métodos mais longos.|
 |Comentários claros|Sim| Para melhor entendimento de partes de códigos que seriam mais complexas e/ou de difícil compreensão.|
 |Formatação e indentação consistente|Sim| Melhorar legibilidade do código.|
 |Evite duplicação de código|Sim| Para reduzir linhas de códigos abstraindo-os em funções e/ou métodos reutilizáveis.|
