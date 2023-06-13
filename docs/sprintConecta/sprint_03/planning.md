@@ -30,7 +30,7 @@ Realizar todo o processo de implementação:
 | Tema | Épico | US |
 |------|-------|----|
 |**T02** -  Ranking para Classificação de Usuários|**EP04** - Gerenciar ranqueamento de usuários com base em sua atividade.|**US17** - Eu, como usuário, gostaria de editar meus avisos  para corrigir de erro de digitação.|
-|**T03** - Administração de Usuários|**EP08** - Gerenciar usuários do sistema.|**US33** - Eu, como usuário, gostaria de visualizar perfis de outros usuários  para quando o mesmo for selecionado.|Deve haver uma pre-visualização ao passar do mouse na foto do usuário.|
+|**T03** - Administração de Usuários|**EP08** - Gerenciar usuários do sistema.|**US33** - Eu, como usuário, gostaria de visualizar perfis de outros usuários  para quando o mesmo for selecionado.|Ao clicar no usuário desejado, deve ser direcionado ao seu perfil.|
 |**T03** - Administração de Usuários|**EP08** - Gerenciar usuários do sistema.|**US34** - Eu, como usuário, gostaria de personalizar e adicionar uma foto ao meu perfil para outros usuários me identificarem.|Deve ser possível adicionar fotos.|
 
 

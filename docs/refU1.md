@@ -32,3 +32,5 @@
 ## Unidade 3
 
 -   MARTIN, Robert C. Código Limpo: Habilidades Práticas do Agile Software. Atlas Book.
+
+- Introdução à Arquitetura e Design de Software: Uma visão sobre a Plataforma Java (Paulo Silveira, Guilherme Silveira, Sérgio Lopes, Nico Steppat e Fabio King).
