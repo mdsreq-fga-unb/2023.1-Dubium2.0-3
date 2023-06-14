@@ -41,6 +41,9 @@ nav:
     - Unidade 2:
         - Material - Padrões de interface, tipo e estilo de arquitetura: "entrega2-conectafga.md"
         - Vídeo - Apresentação Unidade 2: "entrega2-vdo-conectafga.md"
+    - Unidade 3:
+        - Material - Construção, CI e Teste: "entrega3-conectafga.md"
+        - Vídeo - Apresentação Unidade 3: "entrega3-vdo-conectafga.md"
 
   - Backlog do Produto:
      - Backlog: "backlog-conectafga.md"

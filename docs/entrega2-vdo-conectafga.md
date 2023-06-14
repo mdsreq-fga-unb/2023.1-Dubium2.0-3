@@ -1,6 +1,6 @@
-# Vídeo de Apresentação da Unidade 1
+# Vídeo de Apresentação da Unidade 2
 
- Vídeo apresentendo o Git Pages do projeto contendo a ideia inicial e documentação do produto
+ Vídeo apresentando as atualizações do Git Pages do projeto Dubium 2.0, nele contém a apresentação dos padrões e estilos arquiteturais utilizadas no desenvolvimento, padrões de interface, alguns exemplos de protótipos, nossos requisitos não funcionais, definição de pronto, definição de preparado, apresentação do workflow e apresentação do MVP1 e MVP2:
 
 
 

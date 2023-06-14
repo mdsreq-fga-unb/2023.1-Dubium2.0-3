@@ -1,6 +1,6 @@
 # Vídeo de Apresentação da Unidade 1
 
- Vídeo apresentendo o Git Pages do projeto contendo a ideia inicial e documentação do produto
+ Vídeo apresentando o Git Pages do projeto  Dubium 2.0, suas consideração iniciais, o diagrama de Ishikawa, nossas metodologias a serem utilizadas para o desenvolvimento do produto de software e entregas da Unidade 1:
 
 
 

@@ -1,4 +1,4 @@
-# Padrões de interface, tipo e estilo arquiterual
+# Padrões de interface, tipo e estilo arquitetural
 
 ![Slide 1](https://github.com/mdsreq-fga-unb/2023.1-TwoDo/blob/main/docs/imgs/e2-1.png?raw=true)
 ![Slide 2](https://github.com/mdsreq-fga-unb/2023.1-TwoDo/blob/main/docs/imgs/e2-2.png?raw=true)
