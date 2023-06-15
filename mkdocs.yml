@@ -24,7 +24,7 @@ copyright: |
   &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">Two Dwo</a>
 
 nav:
-  - Início: "index.md"
+  - Início: "inicio.md"
 
   - Documentação:
      - Visão Geral do Produto: "visaoProduto.md"
