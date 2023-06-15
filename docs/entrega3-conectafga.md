@@ -8,6 +8,7 @@
 ## MVP 1
 ### Editar aviso
 Local onde o usuário pode modificar um aviso devido a mudança no seu escopo ou para correção ortográfica da mensagem.
+![Captura de tela de 2023-06-15 08-50-12](https://github.com/mdsreq-fga-unb/2023.1-Dubium2.0/assets/87377900/6647bee5-4a4f-4a13-b681-5e78f839f9b8)
 
 ### Adicionar foto de perfil
 O usuário, caso queira, pode adicionar uma foto ao seu perfil.
