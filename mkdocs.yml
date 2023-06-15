@@ -63,9 +63,6 @@ nav:
         - Review: "sprintConecta/sprint_03/review.md"
         - Retrospective: "sprintConecta/sprint_03/retrospective.md"
 
-  - Protótipos:
-      - MVP1: "prototipos/prototipos-mvp1.md"
-      - MVP2: "prototipos/prototipos-mvp2.md"
 
 
 extra:
