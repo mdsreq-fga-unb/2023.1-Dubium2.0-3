@@ -7,7 +7,7 @@ Na review realizada no último dia da Sprint, foram apresentadas as implementaç
 
 Video com a cliente:
 
-<iframe width="1280" height="400px" src="https://www.youtube.com/watch?v=5O08X946raw&ab_channel=EricSilveira" title="Feedback e validação do Cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5O08X946raw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <a href="https://www.youtube.com/watch?v=5O08X946raw&ab_channel=EricSilveira">Clique aqui para ser redirecionado ao vídeo no YouTube</a>
 

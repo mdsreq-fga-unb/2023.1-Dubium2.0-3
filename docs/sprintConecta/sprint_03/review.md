@@ -19,8 +19,7 @@ Na reunião com a cliente, conseguimos resolver os débitos técnicos anteriores
 A cliente expressou seu contentamento aprovando todas as entregas, elogiando a execução das implementações e nos passando feedbacks sobre como podemos evoluir algumas coisas específicas visualmente, onde a próxima parte da Sprint comportará essas mudanças.
 
 Video de apresentação: 
-
-<iframe width="1280" height="400px" src="https://www.youtube.com/watch?v=LipOdj5aFOQ&ab_channel=F%C3%A1bioAlessandro" title="Review MVP1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LipOdj5aFOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <a href="https://www.youtube.com/watch?v=LipOdj5aFOQ&ab_channel=F%C3%A1bioAlessandro">Clique aqui para ser redirecionado ao vídeo no YouTube</a>
 
