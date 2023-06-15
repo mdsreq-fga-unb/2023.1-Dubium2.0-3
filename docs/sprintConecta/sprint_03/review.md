@@ -20,7 +20,9 @@ A cliente expressou seu contentamento aprovando todas as entregas, elogiando a e
 
 Video de apresentação: 
 
-<a href="https://youtu.be/LipOdj5aFOQ">Clique aqui para ser redirecionado ao vídeo no YouTube</a>
+<iframe width="1280" height="400px" src="https://www.youtube.com/watch?v=LipOdj5aFOQ&ab_channel=F%C3%A1bioAlessandro" title="Review MVP1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<a href="https://www.youtube.com/watch?v=LipOdj5aFOQ&ab_channel=F%C3%A1bioAlessandro">Clique aqui para ser redirecionado ao vídeo no YouTube</a>
 
 ## 2.2. Tarefas
 <!-- descrever as issues que definimos para essa sprint e alocar um responsavel por ela -->

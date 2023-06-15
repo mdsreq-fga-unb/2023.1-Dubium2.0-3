@@ -27,17 +27,17 @@ nav:
   - Início: "index.md"
 
   - Documentação:
-     - Visão Geral do Produto: "visaoAtt.md"
+     - Visão Geral do Produto: "visaoProduto.md"
      - Visão Geral do Projeto: "visaoProjeto.md"
-     - Proceso de Desenvolvimento de Software: "processoDes.md"
+     - Proceso de Desenvolvimento de Software: "processoDesenv.md"
      - Construção de Software: "construcao.md"
-     - Lições Aprendidas: "licoesU1.md"
-     - Referências Bibliográficas: "refU1.md"
+     - Lições Aprendidas: "licoesAprendidas.md"
+     - Referências Bibliográficas: "referencias.md"
 
   - Entregas:
     - Unidade 1:
-        - Seminário - Processos e Ciclos de Vida: "unidade1-conectafga.md"
-        - Vídeo - Apresentação GitPages: "u1-material.md"
+        - Seminário - Processos e Ciclos de Vida: "entrega1-conectafga.md"
+        - Vídeo - Apresentação GitPages: "entrega1-vdo-conectafga.md"
     - Unidade 2:
         - Material - Padrões de interface, tipo e estilo de arquitetura: "entrega2-conectafga.md"
         - Vídeo - Apresentação Unidade 2: "entrega2-vdo-conectafga.md"
@@ -47,7 +47,7 @@ nav:
 
   - Backlog do Produto:
      - Backlog: "backlog-conectafga.md"
-     - MVPs: "mvps2.md"
+     - MVPs: "mvps1e2.md"
 
   - Sprints:
     - Sprint 1:
