@@ -6,6 +6,7 @@
 |----------|--------|----------------------------|---------------------------------------------------------------------------------------------|
 |16/04/2023|   0.1  | Criação do gitpages, adição do visão geral do produto e do projeto        |[Arthur](https://github.com/Arthrok), [Eric](https://github.com/ericbky), [Pedro Lucas](https://github.com/lucasdray), [Yasmim](https://github.com/yaskisoba)|
 |18/04/2023|   0.2  | Topicos 1-4 finalizados temporáriamente| [Arthur](https://github.com/Arthrok), [Eric](https://github.com/ericbky), [Pedro Lucas](https://github.com/lucasdray)|
+|22/06/2023| 0.3| Alteração data das sprints | [Pedro Lucas](https://github.com/lucasdray) |
 
 ## 1 - Organização do Projeto
 
@@ -27,8 +28,8 @@
 
 | MVP2    |	Produto(Entrega)|	Data Início |	Data Fim |
 |----------|------------------|-----------------|------------|
-| Sprint 4 |	Produto(Entrega)|	16/06 |  01/07 |
-| Sprint 5 |	Produto(Entrega)|	02/07 |  17/07 |
+| Sprint 4 |	Produto(Entrega)|	19/06 |  04/07 |
+| Sprint 5 |	Produto(Entrega)|	05/07 |  20/07 |
 
 
 

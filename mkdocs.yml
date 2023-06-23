@@ -49,8 +49,9 @@ nav:
      - Backlog: "backlog-conectafga.md"
      - MVPs: "mvps1e2.md"
 
-  - Sprints:
-    - Sprint 1:
+  - Sprints: 
+    - Histórico de Revisão: "sprintConecta/historico-sprint.md"
+    - Sprint 1: 
         - Planning: "sprintConecta/sprint_01/planning.md"
         - Review: "sprintConecta/sprint_01/review.md"
         - Retrospective: "sprintConecta/sprint_01/retrospective.md"
@@ -62,6 +63,8 @@ nav:
         - Planning: "sprintConecta/sprint_03/planning.md"
         - Review: "sprintConecta/sprint_03/review.md"
         - Retrospective: "sprintConecta/sprint_03/retrospective.md"
+    - Sprint 4: "sprintConecta/sprint_04.md"
+
 
 
 
