@@ -1,11 +1,12 @@
-# 3. Retrospective
+# Sprint 3
+01/06/2023 - 15/06/2023
 
 
 ## 3.1. Descrição
 <!-- descrever de forma geral o objetivo da sprint -->
 
 O que deu certo nessa última Sprint ?
-Nessa Sprint conseguimos solucionar os débitos técnicos deixados anteriormente e executamos o que foi proposto na planning, entregando na review a implementação do MVP1 e recebendo feedback positivo sobre a entrega. 
+Nessa Sprint conseguimos solucionar os débitos técnicos deixados pela sprint 02 e executamos o que foi proposto na planning, entregando na review a implementação do MVP1 e recebendo feedback positivo sobre a entrega. 
 Conseguimos trabalhar melhor em equipe para solucionar os problemas encontrados, mas ainda podemos evoluir para as próximas sprints.
 
 

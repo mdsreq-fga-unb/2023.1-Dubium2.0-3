@@ -1,4 +1,5 @@
-# 1. Planning
+# Sprint 3
+01/06/2023 - 15/06/2023
 
 
 ## 1.1. Papéis
@@ -18,7 +19,7 @@ CI-Test| Yasmim | Arthur, Dara, Eric, Fábio, Giulia, Pedro
 -   Para essa sprint, vamos trabalhar de uma forma diferente, tendo em vista o prazo entre seu início ao fim e a entrega do MVP1, bem na metade da sprint. Dessa forma, resolveremos os débitos técnicos da sprint anterior e implementaremos as outras US do MVP no período de uma semana, seguindo os critérios de aceitação e realizando os testes. A outra parte da Sprint será utilizada para iniciar a implementaçao do MVP2.
 Sendo assim, o escopo da nossa Sprint ficou dessa forma:
 
-Para finalizar (débito técnico):
+Para finalizar (débito técnico da sprint 02):
 
 | Tema | Épico | US |
 |------|-------|----|
