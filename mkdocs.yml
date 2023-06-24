@@ -50,7 +50,7 @@ nav:
      - MVPs: "mvps1e2.md"
 
   - Sprints: 
-    - Histórico de Revisão: "sprintConecta/historico-sprint.md"
+    - Historico de Revisão: "sprintConecta/historico_sprints.md"
     - Sprint 1: 
         - Planning: "sprintConecta/sprint_01/planning.md"
         - Review: "sprintConecta/sprint_01/review.md"
@@ -63,7 +63,7 @@ nav:
         - Planning: "sprintConecta/sprint_03/planning.md"
         - Review: "sprintConecta/sprint_03/review.md"
         - Retrospective: "sprintConecta/sprint_03/retrospective.md"
-    - Sprint 4: "sprintConecta/sprint_04.md"
+    - Sprint 4: "sprintConecta/sprint04.md"
 
 
 
@@ -88,9 +88,9 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.tasklist
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+ # - pymdownx.emoji:
+ #     emoji_index: !!python/name:materialx.emoji.twemoji
+ #     emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
