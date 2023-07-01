@@ -5,6 +5,7 @@ const jwt = require("jsonwebtoken")
 const chatSchema = require('../model/chatSchema.js')
 const passport = require("passport")
 const usuarioSchema = require("../model/usuarioSchema.js")
+const redisClient = require("../config/RedisConfig.js")
 
 router.post("/", passport.authenticate('jwt', { session: false }), (req, res) => {
     const { chats } = req.body
@@ -21,10 +22,20 @@ router.post("/", passport.authenticate('jwt', { session: false }), (req, res) =>
         })
 })
 
-router.get("/:idChat", passport.authenticate('jwt', { session: false }), (req, res) => {
+
+router.get("/:idChat", passport.authenticate('jwt', { session: false }), async (req, res) => {
     const { idChat } = req.params
-    chatSchema.findOne({ _id: idChat })
-        .then(data => {
+    const chatCache = await redisClient.get(idChat)
+    if(chatCache){
+        console.log("pegando do REDIS")
+        res.status(200).send(chatCache)
+    } else {
+        chatSchema.findOne({ _id: idChat })
+        .then(async (data) => {
+            console.log("pegando do DB")
+            const chatJSON = JSON.stringify(data)
+            await redisClient.set(idChat, chatJSON)
+            await redisClient.expire(idChat, 300)
             res.status(200).send(data)
         })
         .catch(err => {
@@ -33,16 +44,27 @@ router.get("/:idChat", passport.authenticate('jwt', { session: false }), (req, r
                 message: err
             })
         })
+    }
 })
 
 router.post("/messages", passport.authenticate('jwt', { session: false }), (req, res) => {
     const { messages, idChat } = req.body
+    // console.log(messages[0])
     chatSchema.findOneAndUpdate(
         { _id: idChat },
         { $push: { mensagens: { $each: messages } } },
       )
-        .then(updatedChat => {
-          res.status(200).send("Mensagens salvas com sucesso")
+        .then(async (updatedChat) => {
+            updatedChat.mensagens.push(messages[0])
+            const updatedChatString = JSON.stringify(updatedChat);
+            await redisClient.set(idChat, updatedChatString, (err) => {
+                if (err) {
+                    console.error(err);
+                    return res.status(500).send("Erro ao salvar as mensagens no cache");
+                }
+        })
+        await redisClient.expire(idChat, 300)
+            res.status(200).send("Mensagens salvas com sucesso")
         })
         .catch(error => {
             res.status(400).send({
