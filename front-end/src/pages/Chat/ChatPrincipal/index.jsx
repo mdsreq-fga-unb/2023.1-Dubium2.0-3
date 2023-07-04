@@ -276,7 +276,10 @@ export default function ChatPrincipal({ setLogado }) {
                   {chat.privado && chat.usuarios[0].user.id == jwt(token).secret.id ? `${stringDigitando}` : `${stringDigitando}`}</div>
               </div>
             </div>
-            <div id="searchIcon"><SearchIcon /></div>
+            <div id="searchIcon">
+              {/* <SearchIcon /> */}
+              <SearchIcon onClick={handleSearchClick} />
+              </div>
           </div>
 
 
