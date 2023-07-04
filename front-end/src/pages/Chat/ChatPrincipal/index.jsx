@@ -223,12 +223,15 @@ export default function ChatPrincipal({ setLogado }) {
     }
   }, [arrayMensagens])
 
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchText, setSearchText] = useState("");
-
+  
   const handleSearchClick = () => {
-    // Implemente a lógica desejada quando o ícone de pesquisa for clicado
-    console.log("Ícone de pesquisa clicado!");
-    // Aqui você pode fazer algo com o texto da pesquisa, como enviar para o servidor ou realizar alguma ação específica.
+    setIsSearchOpen(true);
+  };
+  
+  const handleSearchInputChange = (e) => {
+    setSearchText(e.target.value);
   };
   
 
@@ -263,6 +266,7 @@ export default function ChatPrincipal({ setLogado }) {
                     )}
                   </>
                 )}
+
             <div className="dados">
               {token && chat.privado ?
                 <Link to={`/usuario/${chat.usuarios[0].user.id}`}>
@@ -277,11 +281,18 @@ export default function ChatPrincipal({ setLogado }) {
               </div>
             </div>
             <div id="searchIcon">
-              {/* <SearchIcon /> */}
+              {isSearchOpen ? (
+              <input
+                type="text"
+                placeholder="Digite sua pesquisa..."
+                value={searchText}
+                onChange={handleSearchInputChange}
+              />
+            ) : (
               <SearchIcon onClick={handleSearchClick} />
-              </div>
+            )}
+             </div>
           </div>
-
 
           <div className="conteudoChat" >
             {messagesDB.map((mensagem, index) => {
@@ -318,24 +329,6 @@ export default function ChatPrincipal({ setLogado }) {
             </button>
           </div>
         </form>
-
-        <form className="formEntradas" action="" onSubmit={handleSubmit}>
-          <div className="entradasChat">
-            <input
-              id="campoDigitacao"
-              type="text"
-              placeholder="Mensagem"
-              value={message}
-              required
-              maxLength="30"
-              onChange={(e) => setMessage(e.target.value)}
-            />
-            <button type="submit" className="sendMessage">
-              <SendIcon />
-            </button>
-          </div>
-        </form>
-
 
       </div>
     </div>
