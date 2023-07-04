@@ -319,6 +319,24 @@ export default function ChatPrincipal({ setLogado }) {
           </div>
         </form>
 
+        <form className="formEntradas" action="" onSubmit={handleSubmit}>
+          <div className="entradasChat">
+            <input
+              id="campoDigitacao"
+              type="text"
+              placeholder="Mensagem"
+              value={message}
+              required
+              maxLength="30"
+              onChange={(e) => setMessage(e.target.value)}
+            />
+            <button type="submit" className="sendMessage">
+              <SendIcon />
+            </button>
+          </div>
+        </form>
+
+
       </div>
     </div>
   );
