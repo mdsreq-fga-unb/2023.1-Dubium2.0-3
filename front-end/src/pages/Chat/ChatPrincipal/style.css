@@ -25,6 +25,22 @@
     margin-left: 73%;
   }
 
+  .searchInput {
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .searchInput:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+
   #imagemPerfilChat {
     margin-top: 1.2rem;
     margin-left: 1.2rem;
