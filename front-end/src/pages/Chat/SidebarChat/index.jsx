@@ -8,6 +8,7 @@ import { SocketContext } from "../../../context/Socket";
 import React from "react";
 import GroupsIcon from '@mui/icons-material/Groups';
 import PersonIcon from "@mui/icons-material/Person";
+import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 
 export default function SidebarChat() {
   const [usuario, setUsuario] = useState({});
@@ -190,6 +191,15 @@ export default function SidebarChat() {
                     chat.usuarios[0].userTarget.notificacoes > 0 && <span className="notificacao" >{chat.usuarios[0].userTarget.notificacoes}</span>
                   }
                 </div>
+                  
+                <div>
+                    <DensityMediumIcon 
+                      
+                    />
+                </div>
+
+                <nav> <ul> <li> Excluir </li> </ul> </nav>
+
 
               </div>
             )}
