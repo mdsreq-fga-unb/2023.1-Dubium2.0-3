@@ -223,6 +223,7 @@ export default function ChatPrincipal({ setLogado }) {
     }
   }, [arrayMensagens])
 
+  
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchText, setSearchText] = useState("");
   
@@ -234,6 +235,14 @@ export default function ChatPrincipal({ setLogado }) {
     setSearchText(e.target.value);
   };
   
+  const highlightSearchText = (text, searchText) => {
+    if (!searchText) {
+      return text;
+    }
+  
+    const regex = new RegExp(searchText, "gi");
+    return text.replace(regex, (match) => `<span class="highlight">${match}</span>`);
+  };
 
   return token && socket && chat && usuarioSelecionado && arrayMensagens && messagesDB &&  (
     <div className="containerChat">
@@ -298,12 +307,11 @@ export default function ChatPrincipal({ setLogado }) {
           <div className="conteudoChat" >
             {messagesDB.map((mensagem, index) => {
               return (mensagem.idRoom == chat._id) && (
-                <Link
-                  key={index}
-                >
+                <Link key={index}>
                     <div
                       className={jwt(token).secret.id == mensagem.user.id ? "textoChat1" : "textoChatOutro"}>
-                      {chat.privado ? mensagem.message : mensagem.user.nome + ": " + mensagem.message}
+                      {chat.privado ? (<span className="mensagem" dangerouslySetInnerHTML={{__html: highlightSearchText(mensagem.message, searchText)
+                      }}/>) : (<>{mensagem.user.nome}: {mensagem.message} </>)}
                       <span className="horario">{new Date(mensagem.horario).getHours() + ':' + new Date(mensagem.horario).getMinutes()}</span>
                     </div>
                 </Link>
