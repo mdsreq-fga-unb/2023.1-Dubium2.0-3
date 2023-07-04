@@ -287,6 +287,7 @@ export default function ChatPrincipal({ setLogado }) {
                 placeholder="Digite sua pesquisa..."
                 value={searchText}
                 onChange={handleSearchInputChange}
+                className="searchInput"
               />
             ) : (
               <SearchIcon onClick={handleSearchClick} />
