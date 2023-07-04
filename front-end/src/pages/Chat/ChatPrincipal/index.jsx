@@ -223,7 +223,14 @@ export default function ChatPrincipal({ setLogado }) {
     }
   }, [arrayMensagens])
 
+  const [searchText, setSearchText] = useState("");
 
+  const handleSearchClick = () => {
+    // Implemente a lógica desejada quando o ícone de pesquisa for clicado
+    console.log("Ícone de pesquisa clicado!");
+    // Aqui você pode fazer algo com o texto da pesquisa, como enviar para o servidor ou realizar alguma ação específica.
+  };
+  
 
   return token && socket && chat && usuarioSelecionado && arrayMensagens && messagesDB &&  (
     <div className="containerChat">
