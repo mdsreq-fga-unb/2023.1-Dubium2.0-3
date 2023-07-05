@@ -16,6 +16,7 @@ export default function SidebarChat() {
   const [chats, setChats] = useState([])
   const [fotosUsuarios, setFotoUsuarios] = useState({})
   const socket = useContext(SocketContext);
+  const [showMenu, setShowMenu] = useState(false);
 
 
   useEffect(() => {
@@ -132,6 +133,8 @@ export default function SidebarChat() {
   }, [chats])
 
 
+
+
   return token && usuario && chats && (
     <div className="containerSidebar">
       {chats.map((chat, index) => {
@@ -193,26 +196,27 @@ export default function SidebarChat() {
                     }
                   </div>
                 </div>  
-
-                <div className="DensityMediumIcon">
-                    <DensityMediumIcon
                       
-                    />
+                <div className="DensityMediumIcon" onClick={(e) => {e.preventDefault(); setShowMenu(!showMenu); }}>
+                    <DensityMediumIcon  />
+                    <div> {showMenu && (<nav> <ul>  Excluir  </ul> </nav>)} </div>
                 </div>
-                {/* <nav> <ul> <li> Excluir </li> </ul> </nav> */}
-
+                
+                
 
               </div>
+              
             )}
 
-
+            
 
             {!chat.privado && <div className="sidebarItemChat"><div className="iconeSala">{<GroupsIcon style={{ fontSize: '40px' }} />}</div>{
               chat.nome}</div>}
           </Link>
         );
       })}
-
+    
     </div>
+    
   );
 }
