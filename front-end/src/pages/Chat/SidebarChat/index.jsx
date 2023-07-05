@@ -132,23 +132,19 @@ export default function SidebarChat() {
     }
   }, [chats])
 
-
-
-
-setInterval(() => {
-  console.log(showMenu)
-}, 3000);
   return token && usuario && chats && (
     <div className="containerSidebar">
       {chats.map((chat, index) => {
         return (
+          <div
+            key={index}
+          >
             <Link
               to={ // quando clicar levar pra pergunta específica
                 isAuthenticated()
                   ? `/chat/${chat._id}`
                   : "/login"
               }
-              key={index}
               onClick={() => {
                 if (chat.privado) {
                   let verificaNotificacao = (chat.usuarios[0].user.id == jwt(token).secret.id ?
@@ -200,30 +196,6 @@ setInterval(() => {
                       }
                     </div>
                   </div>  
-                    
-                  <div className="DensityMediumIcon">
-                  <DensityMediumIcon
-                    onClick={(e) => {
-                      e.preventDefault(e);
-                      setShowMenu((prevShowMenu) => ({
-                        ...prevShowMenu,
-                        [chat._id]: !prevShowMenu[chat._id],
-                      }));
-                    }}
-                  />
-
-                  {showMenu[chat._id] && (
-                    <nav>
-                      <ul>
-                        <li>Excluir</li>
-                      </ul>
-                    </nav>
-                  )}
-                </div>
-
-                  
-                  
-
                 </div>
             
             )}
@@ -233,6 +205,26 @@ setInterval(() => {
             {!chat.privado && <div className="sidebarItemChat"><div className="iconeSala">{<GroupsIcon style={{ fontSize: '40px' }} />}</div>{
               chat.nome}</div>}
           </Link>
+
+            <DensityMediumIcon
+              onClick={(e) => {
+                e.preventDefault(e);
+                setShowMenu((prevShowMenu) => ({
+                  ...prevShowMenu,
+                  [chat._id]: !prevShowMenu[chat._id],
+                }));
+              }}
+            />
+
+            {showMenu[chat._id] && (
+              <nav>
+                <ul>
+                  <li>Excluir</li>
+                </ul>
+              </nav>
+            )}
+          
+          </div>
         );
       })}
     </div>
