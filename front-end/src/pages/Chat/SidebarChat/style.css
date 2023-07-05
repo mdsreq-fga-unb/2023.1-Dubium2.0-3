@@ -34,3 +34,20 @@
   border-radius: 50%;
   border: #000000 0.5px solid;
 }
+
+.DensityMediumIcon{
+  display: flex;
+  position: relative;
+  float: right;
+  margin-right: 1rem;
+}
+
+.sidebarDate{
+  height: 50px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+  margin-left: -1.9rem;
+
+}

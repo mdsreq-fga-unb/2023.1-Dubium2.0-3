@@ -156,53 +156,55 @@ export default function SidebarChat() {
           >
             {chat.privado && (
               <div className="sidebarItemChat">
-                {chat.privado && (
-                  <>
-                    {chat.usuarios[0].user.id === jwt(token).secret.id ? (
-                      chat.usuarios[0].userTarget.id in fotosUsuarios ? (
-                        <img
-                          id="imagemPerfilChatS"
-                          src={fotosUsuarios[chat.usuarios[0].userTarget.id]}
-                          alt="imagemPerfil"
-                        />
+                <div className ="sidebarDate">
+                  {chat.privado && (
+                    <>
+                      {chat.usuarios[0].user.id === jwt(token).secret.id ? (
+                        chat.usuarios[0].userTarget.id in fotosUsuarios ? (
+                          <img
+                            id="imagemPerfilChatS"
+                            src={fotosUsuarios[chat.usuarios[0].userTarget.id]}
+                            alt="imagemPerfil"
+                          />
+                        ) : (
+                          <PersonIcon />
+                        )
                       ) : (
-                        <PersonIcon />
-                      )
-                    ) : (
-                      chat.usuarios[0].user.id in fotosUsuarios ? (
-                        <img
-                          id="imagemPerfilChatS"
-                          src={fotosUsuarios[chat.usuarios[0].user.id]}
-                          alt="imagemPerfil"
-                        />
-                      ) : (
-                        <PersonIcon />
-                      )
-                    )}
-                  </>
-                )}
-                {chat.usuarios[0].user.id === jwt(token).secret.id
-                  ? chat.usuarios[0].userTarget.nome
-                  : chat.usuarios[0].user.nome}
+                        chat.usuarios[0].user.id in fotosUsuarios ? (
+                          <img
+                            id="imagemPerfilChatS"
+                            src={fotosUsuarios[chat.usuarios[0].user.id]}
+                            alt="imagemPerfil"
+                          />
+                        ) : (
+                          <PersonIcon />
+                        )
+                      )}
+                    </>
+                  )}
+                  {chat.usuarios[0].user.id === jwt(token).secret.id
+                    ? chat.usuarios[0].userTarget.nome
+                    : chat.usuarios[0].user.nome}
 
-                <div>
-                  {chat.usuarios[0].user.id === jwt(token).secret.id ?
-                    chat.usuarios[0].user.notificacoes > 0 && <span className="notificacao" >{chat.usuarios[0].user.notificacoes}</span> :
-                    chat.usuarios[0].userTarget.notificacoes > 0 && <span className="notificacao" >{chat.usuarios[0].userTarget.notificacoes}</span>
-                  }
-                </div>
-                  
-                <div>
-                    <DensityMediumIcon 
+                  <div>
+                    {chat.usuarios[0].user.id === jwt(token).secret.id ?
+                      chat.usuarios[0].user.notificacoes > 0 && <span className="notificacao" >{chat.usuarios[0].user.notificacoes}</span> :
+                      chat.usuarios[0].userTarget.notificacoes > 0 && <span className="notificacao" >{chat.usuarios[0].userTarget.notificacoes}</span>
+                    }
+                  </div>
+                </div>  
+
+                <div className="DensityMediumIcon">
+                    <DensityMediumIcon
                       
                     />
                 </div>
-
-                <nav> <ul> <li> Excluir </li> </ul> </nav>
+                {/* <nav> <ul> <li> Excluir </li> </ul> </nav> */}
 
 
               </div>
             )}
+
 
 
             {!chat.privado && <div className="sidebarItemChat"><div className="iconeSala">{<GroupsIcon style={{ fontSize: '40px' }} />}</div>{
