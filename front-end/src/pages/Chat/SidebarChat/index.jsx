@@ -9,6 +9,7 @@ import React from "react";
 import GroupsIcon from '@mui/icons-material/Groups';
 import PersonIcon from "@mui/icons-material/Person";
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 export default function SidebarChat() {
   const [usuario, setUsuario] = useState({});
@@ -136,7 +137,7 @@ export default function SidebarChat() {
     <div className="containerSidebar">
       {chats.map((chat, index) => {
         return (
-          <div
+          <div className="index"
             key={index}
           >
             <Link
@@ -206,7 +207,8 @@ export default function SidebarChat() {
               chat.nome}</div>}
           </Link>
 
-            <DensityMediumIcon
+              
+            <DensityMediumIcon className="densityMediumIcon"
               onClick={(e) => {
                 e.preventDefault(e);
                 setShowMenu((prevShowMenu) => ({
@@ -217,9 +219,9 @@ export default function SidebarChat() {
             />
 
             {showMenu[chat._id] && (
-              <nav>
+              <nav >
                 <ul>
-                  <li>Excluir</li>
+                <DeleteForeverIcon />
                 </ul>
               </nav>
             )}

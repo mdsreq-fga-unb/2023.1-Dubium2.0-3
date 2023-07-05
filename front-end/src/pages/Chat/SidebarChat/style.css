@@ -1,11 +1,14 @@
 .sidebarItemChat {
   height: 50px;
-  border-bottom: 2px solid #201F25;
   font-size: 17px;
   display: flex;
   align-items: center;
   padding: 0.6rem;
   margin-left: -5px;
+  width: 80%;
+
+
+
 }
 
 .iconeSala{
@@ -25,6 +28,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 2.2rem;
+  
 }
 
 #imagemPerfilChatS {
@@ -33,15 +37,9 @@
   height: 3rem;
   border-radius: 50%;
   border: #000000 0.5px solid;
+  
 }
 
-.DensityMediumIcon{
-  display: flex;
-  position: relative;
-  float: right;
-  margin-right: 1rem;
-  width: 3%;
-}
 
 .sidebarDate{
   height: 50px;
@@ -51,7 +49,27 @@
   padding: 0.6rem;
   margin-left: -1.9rem;
   width: 96%;
+  
+  
 
 }
+
+.densityMediumIcon{
+  /* display: flex; */
+  position: absolute;
+  margin-inline-start: 84%;
+  margin-top: -44.3%;
+  
+
+}
+
+.index{
+  
+  /* display: flex; */
+  /* width: 50%; */
+  border-bottom: 2px solid #201F25;
+}
+
+
 
 
