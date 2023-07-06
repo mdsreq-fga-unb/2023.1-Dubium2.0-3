@@ -54,20 +54,30 @@
 
 }
 
-.densityMediumIcon{
-  /* display: flex; */
-  position: absolute;
-  margin-inline-start: 84%;
-  margin-top: -44.3%;
-  
-
-}
-
 .index{
   
   /* display: flex; */
   /* width: 50%; */
   border-bottom: 2px solid #201F25;
+}
+
+.densityMediumIcon{
+  display: flex;
+  position: absolute;
+  margin-inline-start: 84%;
+  margin-top: -18%;
+  
+
+}
+
+.deleteForeverIcon{
+  display: flex;
+  background-color: #2476aa;
+  margin-left: 150px;
+  margin-bottom: 0.4px;
+  padding: 2px;
+  align-items: center;
+  justify-content:start ;
 }
 
 

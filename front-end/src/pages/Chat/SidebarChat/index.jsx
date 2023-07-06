@@ -207,7 +207,6 @@ export default function SidebarChat() {
               chat.nome}</div>}
           </Link>
 
-              
             <DensityMediumIcon className="densityMediumIcon"
               onClick={(e) => {
                 e.preventDefault(e);
@@ -219,11 +218,11 @@ export default function SidebarChat() {
             />
 
             {showMenu[chat._id] && (
-              <nav >
-                <ul>
-                <DeleteForeverIcon />
-                </ul>
-              </nav>
+              <div className="deleteForeverIcon">
+                <center><DeleteForeverIcon />  </center>Excluir
+                
+              
+              </div>
             )}
           
           </div>
